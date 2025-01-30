@@ -1,0 +1,12 @@
+{
+  "name": "wordpallete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Chinweike99/wordpallete.git",
+  "author": "Chinweike99 <innocentakwolu1@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
