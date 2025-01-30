@@ -2,7 +2,31 @@
 # yarn lockfile v1
 
 
+beep@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/beep/-/beep-0.0.0.tgz#392100037cbb617e7efdd4ce0cefc4cf1265065b"
+  integrity sha512-L/SvbLk1oTwfu7ipLpO8CJURqDCAFFXfLJwYIkDlFnQ1Wd+Fgje8OfTdy5HNqqaNeqZJ9Bbqk4UgXmDauCBjNQ==
+
 chalk@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.4.1.tgz#1b48bf0963ec158dce2aacf69c093ae2dd2092d8"
   integrity sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==
+
+find-exec@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/find-exec/-/find-exec-1.0.3.tgz#c4b18f795968f1730060776fc52f829b977ad29e"
+  integrity sha512-gnG38zW90mS8hm5smNcrBnakPEt+cGJoiMkJwCU0IYnEb0H2NQk0NIljhNW+48oniCriFek/PH6QXbwsJo/qug==
+  dependencies:
+    shell-quote "^1.8.1"
+
+play-sound@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/play-sound/-/play-sound-1.1.6.tgz#e62ed9daf8506aba959e8fd267c49d9b979d89fa"
+  integrity sha512-09eO4QiXNFXJffJaOW5P6x6F5RLihpLUkXttvUZeWml0fU6x6Zp7AjG9zaeMpgH2ZNvq4GR1ytB22ddYcqJIZA==
+  dependencies:
+    find-exec "1.0.3"
+
+shell-quote@^1.8.1:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.2.tgz#d2d83e057959d53ec261311e9e9b8f51dcb2934a"
+  integrity sha512-AzqKpGKjrj7EM6rKVQEPpB288oCfnrEIuyoT9cyF4nmGa7V8Zk6f7RRqYisX8X9m+Q7bd632aZW4ky7EhbQztA==

@@ -1,7 +1,11 @@
 import chalk from 'chalk'
 
 // Array of words in the message (you can add as many words as you want)
-const words = ["Keep", "going", "my", "friend,", "better", "days", "ahead", "🚀", "You", "got", "this!"];
+const words = ["It's","30", "January", "\n2","0","\n2","5.\n", "and", "it", "is", "going",  "to", "be,\n", "an amazing", "day..", "\n🚀😎", "... \n \n", "G","O","O","D", "Morning ..."];
+
+// const words = ["Growth ", "begins", "where", "your", "comfort", "zone", "ends.\n",
+//     "Dreams", "are", "free;", "the"," hustle", "is", "sold", "separately.\n", "\nChoose", "wisely"
+// ]
 
 // Function to generate a random color function from chalk
 function getRandomColor() {
@@ -44,4 +48,4 @@ function displayMessage(words, delay) {
 }
 
 // Call the function with a delay of 500ms (0.5 seconds)
-displayMessage(words, 500);
+displayMessage(words, 400);
